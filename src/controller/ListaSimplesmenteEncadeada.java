@@ -27,6 +27,7 @@ public class ListaSimplesmenteEncadeada {
 		 * */
 	}
 	
+	//Metodo disponivel na fila e pilha
 	public void adicionarFinal(Aluno data) {
 		NOS n = new NOS(data);
 		if(this.start == null) {
@@ -70,6 +71,7 @@ public class ListaSimplesmenteEncadeada {
 		 * */
 	}
 	
+	//Metodo para fila
 	public void removerInicio() {
 		if(this.start == null) {
 			System.err.println("Lista vazia");
@@ -83,6 +85,7 @@ public class ListaSimplesmenteEncadeada {
 		 * */
 	}
 	
+	//Metodo para pilha
 	public void removerFinal() {
 		if(this.start == null) {
 			System.err.println("Lista vazia");

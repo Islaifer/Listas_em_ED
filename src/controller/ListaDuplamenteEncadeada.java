@@ -30,6 +30,7 @@ public class ListaDuplamenteEncadeada {
 		 * */
 	}
 	
+	//Metodo disponivel na pilha e fila
 	public void adicionarFinal(Aluno data) {
 		NOD n = new NOD(data);
 		if(this.start == null) {
@@ -76,6 +77,7 @@ public class ListaDuplamenteEncadeada {
 		 * */
 	}
 	
+	//Metodo da fila
 	public void removerInicio() {
 		if(this.start == null) {
 			System.err.println("A lista está vazia");
@@ -93,6 +95,7 @@ public class ListaDuplamenteEncadeada {
 		 * */
 	}
 	
+	//Metodo da pilha
 	public void removerFinal() {
 		if(this.start==null) {
 			System.err.println("A lista está vazia");
