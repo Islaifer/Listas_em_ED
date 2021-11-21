@@ -24,7 +24,7 @@ public class Main {
 					break;
 				case 2: listaD = menuD.menu(listaD);
 					break;
-				case 9: System.out.println("Saindo...");
+				case 9: System.out.println("Saindo....");
 					break;
 				default: System.err.println("Valor inválido");
 			}
